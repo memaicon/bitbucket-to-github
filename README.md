@@ -43,6 +43,6 @@ Run now:
 
 # Notes
 
-This script `remove` your repo on BitBucket after migration. If you don't want remove your repos plese comment or delete line `26` on `migrate.sh` file.
+This script `remove` your repo on BitBucket after migration. If you don't want remove your repos please comment or delete line `26` on `migrate.sh` file.
 
     bb delete -u $BITBUCKET_USER -p $BITBUCKET_PASSWORD --owner $BITBUCKET_USERNAME $repo
